@@ -39,7 +39,7 @@ const Navigation = ({ user }) => {
           <Link href={"#"}>Features</Link>
         </ul>
       </nav>
-      <aside className="flex gap-2 items-center">
+      <aside className="flex gap-4 items-center">
         <Link href={"/agency"} className={buttonVariants()}>
           Login
         </Link>
